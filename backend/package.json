@@ -10,7 +10,8 @@
     "build": "tsc --build",
     "build:transpile-only": "tsc --noEmitOnError",
     "test": "jest --config jest.config.js",
-    "lint": "eslint . --ext .ts"
+    "lint": "eslint . --ext .ts",
+    "postinstall": "npm rebuild sqlite3 --build-from-source"
   },
   "keywords": [],
   "author": "",
