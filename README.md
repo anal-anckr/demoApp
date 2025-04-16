@@ -26,17 +26,13 @@
 
 ### Running the Application
 
-1. **Start the backend server**
-   ```
-   cd backend
-   npm run dev
-   ```
-   The API will be available at http://localhost:3000/api
 
-2. **In a new terminal, start the frontend application**
+1. **In a new terminal, start the frontend application & Start the backend server**
    ```
    npm start
    ```
+   The API will be available at http://localhost:3000/api
+
    The application will be available at http://localhost:4200
 
 ### Building for Production
