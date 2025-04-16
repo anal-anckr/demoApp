@@ -29,7 +29,7 @@
 
 1. **In a new terminal, start the frontend application & Start the backend server**
    ```
-   npm start
+   npm run start
    ```
    The API will be available at http://localhost:3000/api
 
